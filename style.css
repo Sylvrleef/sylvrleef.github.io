@@ -1,0 +1,129 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url("../images/vintage-concrete.png");
+}
+
+header {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	float: left;
+	width: 300px;
+	padding: 20px;
+	margin-left: 100px;
+	color: #ffffff;
+	background: #4aaaa5;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+	padding-bottom: 20px;
+	color: #4aaaa5;
+	border-bottom: 3px solid #dddddd;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3 {		
+	padding-bottom: 20px;
+	color: #4aaaa5;
+	border-bottom: 3px solid #dddddd;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+form {
+	padding: 20px;
+	color: #777777;
+	width: 650px;
+	float: left;
+	background-color: #ffffff;
+}
+
+.nav {
+	text-decoration: none;
+	color: #C0C0C0;
+	padding-right: 20px;
+	font-size: small;
+}
+
+.link {
+	float: left;
+	padding: 0 5px;
+	height: 50px;
+	width: 50px;
+}
+
+.clearfix {
+	clear: both;
+	overflow: auto;
+	width: 100%
+}
+
+#portfolio {
+	border-right: 2px solid #DCDCDC;
+	border-left: 2px solid #DCDCDC;
+	padding: 0 20px;
+	margin-right: 20px;
+}
+
+#navgroup {
+	float: left;
+	margin: 30px 0 0 480px;
+}
+
+#linkgroup {
+		margin-left: 40px;
+}
+
+#title {
+	width: 100%;
+	background-color: #ffffff;
+	border-bottom: 3px solid #cccccc;
+}
+
+#main {
+	margin-left: 80px;
+	padding: 20px;
+	color: #777777;
+}
+
+#about {
+	width: 650px;
+	float: left;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	padding: 0 20px;
+	clear:both;
+	overflow:auto;
+}
+
+#mypic {
+	margin-right: 20px;
+	float: left;
+}
+
+#connect {
+	padding: 0 20px;
+	margin: 0 50px;
+	float: left;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	text-align: center;
+	width: 270px;
+	height: 150px;
+}
+
+#formbody {
+}
+
+#footer {
+	border-top: 5px solid #4aaaa5;
+	padding: 30px;
+	width: 100%;
+	background-color: #666666;
+	text-align: center;
+	color: #ffffff;
+	font-size: 7px;
+}
+
