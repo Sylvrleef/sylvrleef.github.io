@@ -1,12 +1,17 @@
+
 <!DOCTYPE html>
 
 <html>
 
 <head>
 
-	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/connect.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
 
 	<link rel="icon" type="image/icon" href="assets/images/MyPic.ico">
 
@@ -44,11 +49,11 @@
 
 	<div id="main" class="clearfix">
 
-		<div id="about">
+		<div id="info" class="clearfix">
 
-			<h2>
+			<div class="info_header">
 				About Me
-			</h2>
+			</div>
 
 			<p>
 				<img id="mypic" src="assets/images/MyPic.jpg" alt="Error loading pic." height="200" width="200" /> 
@@ -56,34 +61,37 @@
 				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 			</p>
 
+			<br>
+
 			<p>
 				It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 			</p>
+
+			<br>
 
 		</div>
 
 		<div id="connect">
 
-			<h3>
+			<div class="connect_heading">
 				Connect with Me
-			</h3>
+			</div>
 
-<!-- 				<a class="link" href="mailto:sylvrleef@gmail.com"> 
-				<img class="link" src="assets/images/Gmail.png">
-			</a>
---> 
 			<div id="linkgroup">
 
-				<a class="link" href="https://stackexchange.com/users/11512884/jennifer-usrey-scott"> 
-					<img class="link" src="assets/images/StackOverflow.png">
+				<a id="stackoverflow" class="link" href="https://stackexchange.com/users/11512884/jennifer-usrey-scott" target="_blank"> 
+					<img class="link img-bottom" src="assets/images/StackOverflow.png">
+					<img class="link img-top" src="assets/images/StackOverflowHover.png">
 				</a>
 
-				<a class="link" href="https://github.com/Sylvrleef" target="_blank"> 
-					<img class="link" src="assets/images/GitHub.png"> 
+				<a id="github" class="link" href="https://github.com/Sylvrleef" target="_blank"> 
+					<img  class="link img-bottom" src="assets/images/GitHub.png"> 
+					<img  class="link img-top" src="assets/images/GitHubHover.png">
 				</a>
 
-				<a class="link" href="https://www.linkedin.com/in/jennifer-usrey-scott-28552a92/" target="_blank">
-					<img class="link" src="assets/images/Linkedin.png">
+				<a id="linkedin" class="link" href="https://www.linkedin.com/in/jennifer-usrey-scott-28552a92/" target="_blank">
+					<img class="link img-bottom" src="assets/images/Linkedin.png">
+					<img class="link img-top" src="assets/images/LinkedinHover.png">
 				</a>
 
 			</div>
@@ -92,11 +100,11 @@
 
 	</div>
 
-	<div id="footer" class="clearfix">
+	<footer class="clearfix">
 
 		(c) Copyright 2017 Jennifer E. Usrey-Scott
 
-	</div>
+	</footer>
 
 </body>
 

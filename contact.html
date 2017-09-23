@@ -3,8 +3,14 @@
 <html>
 
 <head>
-	
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/connect.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/contact.css">
 
 	<link rel="icon" type="image/icon" href="assets/images/MyPic.ico">
 
@@ -44,9 +50,9 @@
 
 		<form>
 			
-			<h2>
+			<div class="info_header">
 				Contact Me
-			</h2>
+			</div>
 
 			Name<br>
 			
@@ -58,7 +64,7 @@
 
 			Message<br>
 
-			<textarea placeholder="Type here.">
+			<textarea>
 				
 			</textarea><br>
 
@@ -68,9 +74,9 @@
 
 		<div id="connect">
 
-			<h3>
+			<div class="connect_heading">
 				Connect with Me
-			</h3>
+			</div>
 
 <!-- 				<a class="link" href="mailto:sylvrleef@gmail.com"> 
 				<img class="link" src="assets/images/Gmail.png">
@@ -78,16 +84,19 @@
 --> 
 			<div id="linkgroup">
 
-				<a class="link" href="https://stackexchange.com/users/11512884/jennifer-usrey-scott"> 
-					<img class="link" src="assets/images/StackOverflow.png">
+				<a id="stackoverflow" class="link" href="https://stackexchange.com/users/11512884/jennifer-usrey-scott" target="_blank"> 
+					<img class="link img-bottom" src="assets/images/StackOverflow.png">
+					<img class="link img-top" src="assets/images/StackOverflowHover.png">
 				</a>
 
-				<a class="link" href="https://github.com/Sylvrleef" target="_blank"> 
-					<img class="link" src="assets/images/GitHub.png"> 
+				<a id="github" class="link" href="https://github.com/Sylvrleef" target="_blank"> 
+					<img  class="link img-bottom" src="assets/images/GitHub.png"> 
+					<img  class="link img-top" src="assets/images/GitHubHover.png">
 				</a>
 
-				<a class="link" href="https://www.linkedin.com/in/jennifer-usrey-scott-28552a92/" target="_blank">
-					<img class="link" src="assets/images/Linkedin.png">
+				<a id="linkedin" class="link" href="https://www.linkedin.com/in/jennifer-usrey-scott-28552a92/" target="_blank">
+					<img class="link img-bottom" src="assets/images/Linkedin.png">
+					<img class="link img-top" src="assets/images/LinkedinHover.png">
 				</a>
 
 			</div>
@@ -96,11 +105,11 @@
 
 	</div>
 
-	<div id="footer" class="clearfix">
+	<footer class="clearfix">
 
 		(c) Copyright 2017 Jennifer E. Usrey-Scott
 
-	</div>
+	</footer>
 
 </body>
 

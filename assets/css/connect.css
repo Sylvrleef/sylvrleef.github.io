@@ -1,0 +1,82 @@
+.link {
+	float: left;
+	padding: 0 5px;
+	height: 50px;
+	width: 50px;
+}
+
+#linkgroup {
+	margin-left: 30px;
+}
+
+#stackoverflow {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+}
+
+#stackoverflow:hover .img-bottom {
+	display: none;
+}
+
+#stackoverflow .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+#stackoverflow:hover .img-top {
+    display: inline;
+}
+
+#github{
+	margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+}
+
+#github:hover .img-bottom {
+	display: none;
+}
+
+#github .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+#github:hover .img-top {
+    display: inline;
+}
+
+#linkedin {
+	margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+}
+
+#linkedin:hover .img-bottom {
+	display: none;
+}
+
+#linkedin .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+#linkedin:hover .img-top {
+    display: inline;
+}
+
