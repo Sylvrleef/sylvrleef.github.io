@@ -44,7 +44,7 @@ footer {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-.connect_heading {		
+.connect_heading {
 	margin-bottom: 20px;
 	font-weight: bold;
 	font-size: medium;
@@ -94,6 +94,7 @@ footer {
 
 #main {
 	margin-left: 80px;
+	margin-bottom: 100px;
 	padding: 20px;
 	color: #777777;
 }
